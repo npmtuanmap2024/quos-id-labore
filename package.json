@@ -1,18 +1,93 @@
 {
-  "name": "@utilcode/simple-template-advanced",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "name": "@npmtuanmap2024/quos-id-labore",
+  "version": "v1.0.0",
+  "author": "tuan149",
+  "description": "An ES2019 spec-compliant `Array.prototype.flatMap` shim/polyfill/replacement that works as far down as ES3.",
   "license": "MIT",
+  "main": "index",
+  "keywords": [
+    "Array.prototype.flatMap",
+    "flatMap",
+    "array",
+    "ESnext",
+    "shim",
+    "polyfill",
+    "flatten",
+    "Array.prototype.flatten",
+    "es-shim API"
+  ],
+  "dependencies": {
+    "@npmtuanmap2024/assumenda-officia-consequatur-in": "^v1.0.0",
+    "@npmtuanmap2024/eveniet-consectetur-fuga-magni": "^v1.0.0",
+    "@npmtuanmap2024/ipsam-tempora-nisi-omnis": "^v1.0.0",
+    "@npmtuanmap2024/maiores-eaque-est-tempora": "^v1.0.0",
+    "@npmtuanmap2024/psychic-dollop": "^1.0.0",
+    "call-bind": "^1.0.5",
+    "define-properties": "^1.2.1",
+    "es-abstract": "^1.22.3",
+    "es-shim-unscopables": "^1.0.2"
+  },
+  "devDependencies": {
+    "@es-shims/api": "^2.4.2",
+    "@ljharb/eslint-config": "^21.1.0",
+    "aud": "^2.0.4",
+    "auto-changelog": "^2.4.0",
+    "eslint": "=8.8.0",
+    "evalmd": "^0.0.19",
+    "for-each": "^0.3.3",
+    "has-strict-mode": "^1.0.1",
+    "in-publish": "^2.0.1",
+    "npmignore": "^0.3.1",
+    "nyc": "^10.3.2",
+    "object-inspect": "^1.13.1",
+    "safe-publish-latest": "^2.0.0",
+    "tape": "^5.7.4"
+  },
+  "testling": {
+    "files": [
+      "test/index.js",
+      "test/shimmed.js"
+    ],
+    "browsers": [
+      "iexplore/6.0..latest",
+      "firefox/3.0..6.0",
+      "firefox/15.0..latest",
+      "firefox/nightly",
+      "chrome/4.0..10.0",
+      "chrome/20.0..latest",
+      "chrome/canary",
+      "opera/10.0..latest",
+      "opera/next",
+      "safari/4.0..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2"
+    ]
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "keepachangelog",
+    "unreleased": false,
+    "commitLimit": false,
+    "backfillLimit": false,
+    "hideCredit": true,
+    "startingVersion": "1.3.1"
+  },
+  "publishConfig": {
+    "ignore": [
+      ".github/workflows"
+    ]
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+    "url": "https://github.com/npmtuanmap2024/quos-id-labore.git"
   },
-  "dependencies": {
-    "axios": "^1.6.8"
-  }
+  "homepage": "https://github.com/npmtuanmap2024/quos-id-labore/#readme",
+  "bugs": {
+    "url": "https://github.com/npmtuanmap2024/quos-id-labore/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
